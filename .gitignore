@@ -3,6 +3,7 @@
 *.pptx
 *.webm
 *.mp4
+*.docx
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
