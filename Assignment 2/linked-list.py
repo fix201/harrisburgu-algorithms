@@ -10,7 +10,7 @@ class DoublyLinkedList(object):
         self.tail = None
         self.count = 0
         
-    def insert(self, data):
+    def append(self, data):
         temp = Node(data, None, None)
         if self.head == None:
             self.head = temp
@@ -26,20 +26,5 @@ class DoublyLinkedList(object):
         while current:
             print(current.data) 
             current = current.next
-            pass
-    
-class UndoRedoApp(DoublyLinkedList):
-    def __init__(self):
-        super().__init__()
-        self.current = self.tail
+            pass           
 
-    def do(self, data, choice):
-        self.current = self.tail
-        if choice == 'create':
-            self.append(data)
-            
-
-lst = DoublyLinkedList()
-lst.insert([1,2,3,4])
-lst.insert([1,2,3,4,5])
-lst.traverse()
