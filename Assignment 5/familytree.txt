@@ -1,0 +1,51 @@
+Family 1
+	Patrick Earnshaw (M) {id: 001}
+	Hannah Earnshaw (F) {id: 002}
+	Relationship: Married
+	Children:
+		Catherine Earnshaw (F) {id: 003}
+		Hindley Earnshaw (M) {id: 004}
+End
+Family 2
+	Andrew Linton (M) {id: 005} 
+	Dolores Linton (F) {id: 006}
+	Relationship: Divorced
+	Children: 
+		Isabella Linton (F) {id: 007}
+		Edgar Linton (M) {id: 008}
+		Heathcliff Linton (M) [Adopted] {id: 009}
+End
+Family 3
+	Hindley Earnshaw (M) {id: 004}
+	Frances Byler (M) {id: 010}
+	Relationship: Married 
+	Children:
+		Hareton Earnshaw (M) [Adopted] {id: 011}
+End
+Family 4
+	Catherine Earnshaw (F) {id: 003}
+	Edgar Linton (M) {id: 008}
+	Relationship: Married
+	Children:
+		Cathy Linton (F) {id: 012}
+End
+Family 5
+	Isabella Linton (F) {id: 007}
+	Children:
+		Linton Heathcliff (M) {id: 013}
+End
+Family 6
+	Heathcliff Linton (M) {id: 009}
+	Children:
+		Linton Heathcliff (M) {id: 013}
+End
+Family 7
+	Hareton Earnshaw (M) {id: 011}
+	Cathy Linton (F) {id: 012}
+	Relationship: Married
+End
+Family 8
+	Cathy Linton (F) {id: 012}
+	Linton Heathcliff (M) {id: 013}
+	Relationship: Divorced
+End
